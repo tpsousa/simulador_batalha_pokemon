@@ -1,0 +1,49 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+  font-size: 70px;
+}
+
+.subtitulo {
+    font-size: 50px;
+    margin: 1px;
+}
+
+.pokemons{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    margin:10px;
+}
+
+button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+button:hover{
+    font-size: 30px;
+    border: 2px solid green;
+}
+
+.status{
+    font-size: 30px;
+}
+
+.escolha {
+    font-size: 30px;
+    padding: 5px;
+}

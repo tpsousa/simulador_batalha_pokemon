@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>simulador batalha pokemon</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 ----
 <h1 class="titulo">simulador de batalha pokemon</h1>
 
 <h2 class="subtitulo">prepare-se para o desafio</h2>
 
+<p class="escolha">escolha seu pokemon para batalhar</p>
 <div class="pokemons">
    <button onclick="escolha('pikachu')">pikachu</button>
    <button onclick="escolha('charizard')">charizard</button>
    <button onclick="escolha('bulbasaur')">bulbasaur</button>
    <button onclick="escolha('charmander')">charmander</button>
    <button onclick="escolha('gengar')">gengar</button>
-
-   <p class="status">mensagem</p>
 </div>
 
-<div class="batalha" display = "none">
+<div class="batalha" style="display: none;">
   <img src="" alt="">
-  <img src="" alt="">
+  <img src="" alt="">   
 
   <p class="status">o desafio comecou</p>
+  <button onclick="atacar()">atacar</button>
 </div>
-<button onclick="atacar()">atacar</button>
+
 <body>
     
 </body>
